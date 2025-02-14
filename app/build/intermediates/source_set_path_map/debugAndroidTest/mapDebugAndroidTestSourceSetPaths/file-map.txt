@@ -1,0 +1,6 @@
+com.ucb.eldroid.multilayoutlogger.test.app-tracing-1.2.0-0 C:\Users\sumar\.gradle\caches\transforms-4\60f3f5239ad91ca70e98d2ca291d399a\transformed\tracing-1.2.0\res
+com.ucb.eldroid.multilayoutlogger.test.app-core-1.6.1-1 C:\Users\sumar\.gradle\caches\transforms-4\8131f4a4e71efebf9c7d589ac8a28309\transformed\core-1.6.1\res
+com.ucb.eldroid.multilayoutlogger.test.app-androidTest-2 C:\Users\sumar\AndroidStudioProjects\ELDROID2NDSEM\Exercise1\app\build\generated\res\resValues\androidTest\debug
+com.ucb.eldroid.multilayoutlogger.test.app-mergeDebugAndroidTestResources-3 C:\Users\sumar\AndroidStudioProjects\ELDROID2NDSEM\Exercise1\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.ucb.eldroid.multilayoutlogger.test.app-mergeDebugAndroidTestResources-4 C:\Users\sumar\AndroidStudioProjects\ELDROID2NDSEM\Exercise1\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.ucb.eldroid.multilayoutlogger.test.app-debugAndroidTest-5 C:\Users\sumar\AndroidStudioProjects\ELDROID2NDSEM\Exercise1\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

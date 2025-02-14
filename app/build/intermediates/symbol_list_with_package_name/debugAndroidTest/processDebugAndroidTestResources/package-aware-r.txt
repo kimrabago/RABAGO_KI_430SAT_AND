@@ -1,0 +1,3 @@
+com.ucb.eldroid.multilayoutlogger.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
