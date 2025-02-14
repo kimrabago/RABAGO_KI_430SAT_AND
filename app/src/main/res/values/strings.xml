@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MultiLayoutLogger</string>
+    <string name="home_screen">Home Screen (Exercise 1)</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string name="information">INFORMATION</string>
+    <string name="profile">PROFILE</string>
+    <string name="contact_num">0912345672</string>
+    <string name="example_email">rabagokim@gmail.com</string>
+    <string name="example_full_name">Kimberly Rabago</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="full_name">Full Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="edit_profile">Edit Profile</string>
+</resources>
