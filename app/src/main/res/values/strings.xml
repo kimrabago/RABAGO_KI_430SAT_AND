@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TaskManagerActivity</string>
+    <string name="task">task</string>
+    <string name="category">Category</string>
+    <string name="task_manager_app">Task Manager App</string>
+    <string name="enter_task">Enter task</string>
+    <string name="add_task">Add Task</string>
+    <string name="clear">Clear</string>
+
+    <string-array name="task_categories">
+        <item>Health</item>
+        <item>Work</item>
+        <item>Shopping</item>
+        <item>Personal</item>
+    </string-array>
+</resources>
