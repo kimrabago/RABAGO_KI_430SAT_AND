@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NewsFlash</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="articles">Articles</string>
+    <string name="favorites">Favorites</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="favorite">Favorite</string>
+    <string name="new_article_title"><b>Latest news articles updated!</b></string>
+    <string name="new_article_description">
+        Every step forward, no matter how small, is progress.
+        Challenges may seem overwhelming at times, but they are simply
+        opportunities for growth and resilience. Believe in your ability to overcome,
+        and remember that persistence is the key to unlocking your full potential.
+    </string>
+    <string name="article_image">Article Image</string>
+    <string name="bigger_image_headline">Bigger Image Headline</string>
+
+    <string name="remove_from_favorites_title">Remove from Favorites</string>
+    <string name="remove_from_favorites_message">Are you sure you want to remove "%1$s" from your favorites?</string>
+    <string name="remove_button">Remove</string>
+    <string name="cancel_button">Cancel</string>
+</resources>
