@@ -39,7 +39,6 @@ class NotificationHelper(private val context: Context) {
             return
         }
 
-        // Intent to open MainActivity and pass article details
         val intent = Intent(context, MainActivity::class.java).apply {
             putExtra("title", articleTitle)
             putExtra("description", articleDescription)

@@ -25,7 +25,9 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:paddingTop="10dp" />
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
 
         <TextView
             android:id="@+id/detailDescription"
@@ -33,7 +35,8 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:paddingTop="10dp" />
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"/>
     </LinearLayout>
-
 </FrameLayout>

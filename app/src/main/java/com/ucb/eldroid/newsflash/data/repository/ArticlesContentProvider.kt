@@ -8,6 +8,7 @@ import android.net.Uri
 import com.ucb.eldroid.newsflash.R
 
 class ArticlesContentProvider : ContentProvider() {
+
     companion object {
         const val AUTHORITY = "com.ucb.eldroid.newsflash.provider"
         val CONTENT_URI: Uri = Uri.parse("content://$AUTHORITY/articles")
@@ -15,28 +16,54 @@ class ArticlesContentProvider : ContentProvider() {
         const val COLUMN_ID = "_id"
         const val COLUMN_TITLE = "title"
         const val COLUMN_IMAGE = "image"
-
-        // Sample Data
-        private val articles = listOf(
-            arrayOf(1, "Breaking News: Market Crash", R.drawable.market_crash_image),
-            arrayOf(2, "Sports Update: Champions League", R.drawable.champ_league_image),
-            arrayOf(3, "Technology: New AI Breakthrough", R.drawable.new_ai_image),
-            arrayOf(4, "Fire Alert: Fire Happening at Apas, Lahug Cebu", R.drawable.fire_image)
-        )
+        const val COLUMN_DESCRIPTION = "description"
     }
 
     override fun onCreate(): Boolean {
         return true
     }
 
+    private fun getArticlesList(): List<Array<Any>> {
+        val context = context ?: return emptyList()
+
+        return listOf(
+            arrayOf(
+                1,
+                context.getString(R.string.title_market_crash),
+                R.drawable.market_crash_image,
+                context.getString(R.string.desc_market_crash)
+            ),
+            arrayOf(
+                2,
+                context.getString(R.string.title_champions_league),
+                R.drawable.champ_league_image,
+                context.getString(R.string.desc_champions_league)
+            ),
+            arrayOf(
+                3,
+                context.getString(R.string.title_ai_breakthrough),
+                R.drawable.new_ai_image,
+                context.getString(R.string.desc_ai_breakthrough)
+            ),
+            arrayOf(
+                4,
+                context.getString(R.string.title_fire_alert),
+                R.drawable.fire_image,
+                context.getString(R.string.desc_fire_alert)
+            )
+        )
+    }
+
     override fun query(
         uri: Uri, projection: Array<String>?, selection: String?,
         selectionArgs: Array<String>?, sortOrder: String?
     ): Cursor? {
-        val cursor = MatrixCursor(arrayOf(COLUMN_ID, COLUMN_TITLE, COLUMN_IMAGE))
-        for (article in articles) {
+        val cursor = MatrixCursor(arrayOf(COLUMN_ID, COLUMN_TITLE, COLUMN_IMAGE, COLUMN_DESCRIPTION))
+
+        for (article in getArticlesList()) {
             cursor.addRow(article)
         }
+
         return cursor
     }
 

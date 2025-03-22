@@ -22,4 +22,34 @@
     <string name="remove_from_favorites_message">Are you sure you want to remove "%1$s" from your favorites?</string>
     <string name="remove_button">Remove</string>
     <string name="cancel_button">Cancel</string>
+
+    <!-- Titles -->
+    <string name="title_market_crash">Breaking News: Market Crash</string>
+    <string name="title_champions_league">Sports Update: Champions League</string>
+    <string name="title_ai_breakthrough">Technology: New AI Breakthrough</string>
+    <string name="title_fire_alert">Fire Alert: Fire Happening at Apas, Lahug Cebu</string>
+
+    <!-- Descriptions -->
+    <string name="desc_market_crash">The stock market faced a huge crash today due
+        to economic downturns. Investors rushed to sell off shares, leading to
+        record-breaking declines in major indices. \n\nExperts attribute the crash to
+        inflation concerns, rising interest rates, and global geopolitical tensions.
+        Analysts warn that economic recovery may take months as governments and
+        financial institutions work to stabilize the situation.</string>
+    <string name="desc_champions_league">The Champions League semifinals brought unexpected
+        results as underdog teams delivered stunning performances. Fans were left in awe as
+        last-minute goals and penalty shootouts decided the fate of major clubs. \n\nStar players
+        showcased their brilliance, but controversy arose over VAR decisions. With the finals
+        approaching, anticipation is at an all-time high.</string>
+    <string name="desc_ai_breakthrough">A new AI model was developed that surpasses human
+        capabilities in coding and problem-solving. Tech companies are hailing this as a
+        revolutionary step toward automation, with AI now able to debug complex software,
+        generate innovative solutions, and even create its own algorithms. While some celebrate
+        this progress, concerns about job displacement and ethical AI use continue to grow.</string>
+    <string name="desc_fire_alert">A massive fire broke out in Apas, Lahug Cebu,
+        destroying multiple residential and commercial buildings. Authorities rushed
+        to the scene, deploying firefighters and emergency responders to contain the
+        blaze. \n\nWitnesses reported seeing thick smoke billowing into the sky as residents
+        evacuated. Investigations are underway to determine the cause of the fire, while
+        relief efforts are being organized for those affected.</string>
 </resources>

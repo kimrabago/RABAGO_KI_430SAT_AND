@@ -60,6 +60,7 @@ class ArticlesFragment : Fragment() {
             arguments = Bundle().apply {
                 putString("title", article.title)
                 putInt("imageRes", article.imageRes)
+                putString("description", article.description)
             }
         }
 
